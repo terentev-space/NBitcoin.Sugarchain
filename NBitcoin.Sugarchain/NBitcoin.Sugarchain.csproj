@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+		<IsPackable>true</IsPackable>
+        <PackageVersion>0.1.1</PackageVersion>
+        <Title>NBitcoin.Sugarchain</Title>
+        <Authors>Ivan Terentev</Authors>
+        <Description>Sugarchain extensions for NBitcoin and SugarchainApiClient</Description>
+        <Copyright>terentev-space</Copyright>
+        <RepositoryUrl>https://github.com/terentev-space/NBitcoin.Sugarchain</RepositoryUrl>
+        <AssemblyVersion>0.1.1</AssemblyVersion>
+        <FileVersion>0.1.1</FileVersion>
+        <PackageId>NBitcoin.Sugarchain</PackageId>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/terentev-space/NBitcoin.Sugarchain/master/LICENSE</PackageLicenseUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NBitcoin" Version="5.0.77" />
+      <PackageReference Include="SugarchainApiClient" Version="0.1.1" />
+    </ItemGroup>
+
+</Project>
